@@ -1,0 +1,9 @@
+.day-label {
+	width: 12%;
+	padding: 0.5em;
+
+	text-align: center;
+
+	border: 1px solid darkgrey;
+	background-color: lightgrey;
+}

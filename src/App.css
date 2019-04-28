@@ -1,0 +1,65 @@
+.calendar-header {
+	display: flex;
+
+	padding: 1em 2em;
+
+	justify-content: space-between;
+}
+
+.calendar-header h2 {
+	margin: 0;
+}
+
+.calendar-header button {
+	width: 10em;
+}
+
+.calendar-container {
+	display: flex;
+
+	margin-bottom: 2em;
+
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form-title {
+	margin-bottom: 0;
+
+	text-align: center;
+}
+.appt-form {
+	display: flex;
+
+	justify-content: center;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+
+	padding: 0.5em;
+
+	justify-content: flex-end;
+}
+
+.form-group label {
+	display: block;
+}
+
+input {
+	font-size: 1em;
+
+	padding: 0.25em;
+
+	border: 1px solid darkgray;
+	border-radius: 3px;
+}
+
+button {
+	font-size: 1em;
+
+	padding: 0.25em;
+
+	border-radius: 5px;
+}

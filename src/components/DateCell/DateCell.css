@@ -1,0 +1,16 @@
+.date-cell {
+	width: 12%;
+	padding: 0.5em;
+
+	border: 1px solid darkgray;
+}
+
+.date-cell.empty {
+	background-color: lightgrey;
+}
+
+.appointment-container {
+  overflow-y: scroll;
+  
+  height: 100px;
+}
